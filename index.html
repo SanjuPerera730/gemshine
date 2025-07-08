@@ -510,16 +510,17 @@
 		/* Trusted Sellers */
 
         .cta-button {
-            background: var(--gold);
-            color: var(--dark-text);
+            background: var(--cream);
+            color: var(--white);
             padding: 15px 30px;
             border: none;
-            border-radius: 50px;
+            border-radius: 0px;
             font-size: 1.1rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
             text-decoration: none;
+            text-transform: uppercase;
             display: inline-block;
         }
 
@@ -1038,6 +1039,26 @@
         .fade-in {
             animation: fadeInUp 0.8s ease;
         }
+		 /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.8s ease;
+        }
+		
+		
+		
+		
+		
     </style>
 </head>
 <body>
@@ -1059,13 +1080,14 @@
                 </div>
             </div>
             <ul class="nav-menu">
+				
                 <li><a href="#home">Home</a></li>
 				 <li><a href="#explore">Explore</a></li>
                 <li><a href="#collections">Collections</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#sellers">Gem Dealers</a></li>
                 <li><a href="#Contact">Contact</a></li>
-		<li><a href="#more">More</a></li>
+		
             </ul>
             <div class="nav-actions">
                 <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -1084,8 +1106,8 @@
     <section class="hero" id="home">
         <div class="hero-bg-pattern"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Exquisite Ceylon Craftsmanship</p>
-            <h1 class="hero-title">Where Luxury Meets Heritage</h1>
+          <p class="hero-subtitle"><strong>Exquisite Ceylon Craftsmanship</strong></p>
+            <h1 class="hero-title"><strong>Where Luxury Meets Heritage</strong></h1>
             <p class="hero-description">Discover the world's finest gemstone jewelry, handcrafted by master artisans from the legendary island of Ceylon. Each piece tells a story of timeless elegance and extraordinary beauty.</p>
             <a href="#collections" class="luxury-cta">
                 <span>Explore Collections</span>
@@ -1224,72 +1246,73 @@
                 <div class="gem-card">
                     <div class="gem-image">
                        <img src="Photos/sabrianna-9_35SjwzpnU-unsplash 1111.jpg" width="370" height="370" >
-                        <div class="certification-badge">&nbsp;</div>
+                        <div class="certification-badge"></div>
                     </div>
                     <div class="gem-info">
                         <h3>Watches</h3>
                         <p class="gem-price">LKR 750,000.00</p>
-                        <p>3.2 carats • Heat treated • Ratnapura origin</p>
+                        <h3>Diamond Rings</h3>
                     </div>
                 </div>
 
                 <div class="gem-card">
                     <div class="gem-image">
 						<img src="Photos/1pc Rhinestone Decor Quartz Watch & 1pc Bracelet 111.jpg" width="370" height="370" >
-                        <div class="certification-badge">&nbsp;</div>
+                        <div class="certification-badge"></div> 
                     </div>
                     <div class="gem-info">
                         <h3>Art Deco Rings</h3>
                         <p class="gem-price">$3,800</p>
-                        <p>2.8 carats • Natural • Elahera origin</p>
+                       <h3>Diamond Watches</h3>
                     </div>
                 </div>
 
                 <div class="gem-card">
                     <div class="gem-image">
 						<img src="Photos/download (3).jpg" width="370" height="370" >
-                        <div class="certification-badge">&nbsp;</div>
+                        <div class="certification-badge"></div>
                     </div>
                     <div class="gem-info">
                         <h3>Diamond Neckleses</h3>
                         <p class="gem-price">$1,900</p>
                         <h3>Diamond Neckleses</h3>
+						
                     </div>
                 </div>
 
                 <div class="gem-card">
                     <div class="gem-image">
 						<img src="Photos/download (8).jpg" width="370" height="370" >
-                        <div class="certification-badge">&nbsp;</div>
+                        <div class="certification-badge"></div>
                     </div>
                     <div class="gem-info">
                         <h3>Gold Classics</h3>
                         <p class="gem-price">$1,200</p>
-                        <h3>Diamond Neckleses</h3>
+                        <h3>Diamond Gold Classics</h3>
                     </div>
                 </div>
 
                 <div class="gem-card">
                     <div class="gem-image">
 						<img src="file:///C|/Users/USER/Downloads/New Collection Necklace Design Idea.jpg" width="370" height="370" >
-                        <div class="certification-badge">&nbsp;</div>
+                        <div class="certification-badge"></div>
                     </div>
                     <div class="gem-info">
-                        <h3>Wedding Jewellery&nbsp;</h3>
+                        <h3>Wedding Jewellery;</h3>
                         <p class="gem-price">$2,100</p>
-                        <p>3.7 carats • Heat treated • Rakwana origin</p>
+                         <h3>Diamond Heritage Collection</h3>
                     </div>
                 </div>
 
                 <div class="gem-card">
                   <div class="gem-image">
 						<img src="file:///C|/Users/USER/Downloads/download (9).jpg" width="370" height="370" >
-                        <div class="certification-badge">&nbsp;</div>
+                        <div class="certification-badge"></div>
                     </div>
                     <div class="gem-info">
                         <h3>Heritage Collection</h3>
                         <p class="gem-price">$2,750</p>
-                        <p>2.9 carats • Natural • Kuruvita origin</p>
+                        <h3>Wedding Jewellery Collection</h3>
                     </div>
                 </div>
             </div>
@@ -1354,33 +1377,44 @@
 
             <div class="sellers-grid">
                 <div class="feature-card sapphire">
-                    <div class="seller-avatar">KG</div>
-                    <h3>Kamal Gems</h3>
+                  <div class="seller-avatar">💎</div>
+                    <h3>Rohan Gems and Lapidary</h3>
                     <div class="rating">⭐⭐⭐⭐⭐ (4.9/5)</div>
                     <p><strong>Ratnapura</strong></p>
                     <p>25+ years experience in blue sapphires. Family business specializing in unheated Ceylon sapphires.</p>
                     <p><strong>156 reviews</strong></p>
-                    <button class="luxury-cta" style="margin-top: 15px;">View Store</button>
+					<a href="https://www.google.com/maps/place/ROHAN+GEMS+AND+LAPIDARY/@6.6775934,80.3932336,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae3bf132325e0dd:0xac05a79783865c43!8m2!3d6.6775934!4d80.3958085!16s%2Fg%2F11hynjlzxg?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"target="_blank">
+						<button class="cta-button" style="margin-top: 15px;">View Store</button></a>
                 </div>
+				
+				
+				
+				
+				
+				
 
                 <div class="feature-card sapphire">
-                    <div class="seller-avatar" style="background: var(--ruby-red);">RJ</div>
-                    <h3>Ruby Junction</h3>
+					<a href="https://www.google.com/maps/place/Galle/@6.05589,80.1707972,13z/data=!3m1!4b1!4m6!3m5!1s0x3ae173bb6932fce3:0x4a35b903f9c64c03!8m2!3d6.0328948!4d80.2167912!16zL20vMDI3M21r?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"target="_blank">
+						</a>
+                    <div class="seller-avatar" style="background: var(--ruby-red);">💎</div>
+                    <h3>Dazzling Gems</h3>
                     <div class="rating">⭐⭐⭐⭐⭐ (4.8/5)</div>
                     <p><strong>Colombo</strong></p>
                     <p>Certified gemologist with expertise in rubies and rare colored stones. GIA trained professional.</p>
                     <p><strong>203 reviews</strong></p>
-                    <button class="luxury-cta" style="margin-top: 15px;">View Store</button>
+					<a href="https://www.google.com/maps/place/Dazzling+Gems+Colombo/@6.8448871,79.9845621,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae251386566b345:0x3eef109d606c7553!8m2!3d6.8448871!4d79.987137!16s%2Fg%2F11nxpxdwh1?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"target="_blank">
+                  <button class="cta-button" style="margin-top: 15px;"><span>View Store</span></button></a>
                 </div>
 
                 <div class="feature-card sapphire">
-                    <div class="seller-avatar" style="background: var(--sapphire-blue);">CG</div>
-                    <h3>Ceylon Gem House</h3>
+                    <div class="seller-avatar" style="background: var(--sapphire-blue);">💎</div>
+                    <h3>Princess Gem &amp; Jewellery</h3>
                     <div class="rating">⭐⭐⭐⭐⭐ (4.9/5)</div>
                     <p><strong>Beruwala</strong></p>
                     <p>Third generation gem dealer specializing in star sapphires and cat's eye. Export quality assurance.</p>
                     <p><strong>287 reviews</strong></p>
-                    <button class="luxury-cta" style="margin-top: 15px;">View Store</button>
+					<a href="https://www.google.com/maps/place/Princess+Gem+%26+Jewellery+%E2%80%93+Beruwala/@6.4439582,79.9880464,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae22e66ecda054b:0x9ee645067024539b!8m2!3d6.4439582!4d79.9906213!16s%2Fg%2F11f5qyq3jt?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"target="_blank">
+						<button class="cta-button" style="margin-top: 15px;">View Store</button></a>
                 </div>
 
                
@@ -1442,20 +1476,24 @@
                 <h2>Get in Touch</h2>
                 
                 <div class="contact-item">
-                    <h3>Address</h3>
-                    <p>123 Gem Street<br>
-                    New York, NY 10001<br>
-                    United States</p>
+                  <h3>Address</h3>
+                    <p>12/3 Gem Street,
+                       <br>
+						Colombo,<br>
+						Sri Lanka.</br>
+					
+					</p>
                 </div>
 
                 <div class="contact-item">
                     <h3>Phone</h3>
-                    <p>+1 (555) 123-4567</p>
+                    <p>+94 78 522 2245</p>
+					<p>+94 76 865 7854</p>
                 </div>
 
                 <div class="contact-item">
                     <h3>Email</h3>
-                    <p>info@preciousgems.com</p>
+                    <p>gemshinestore@gmail.com</p>
                 </div>
 
                 <div class="contact-item">
@@ -1511,7 +1549,7 @@
                         <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
                     </div>
 
-                    <button type="submit" class="luxury-cta">Send Message</button>
+                    <button type="submit" class="cta-button">Send Message</button>
                 </form>
             </div>
         </div>
@@ -1540,6 +1578,7 @@
 
     <!-- Footer -->
     <footer>
+		
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
@@ -1591,18 +1630,5 @@
             const header = document.getElementById('header');
             if (window.scrollY > 100
 				
-				// Add smooth scrolling and animations
-        document.addEventListener('DOMContentLoaded', function() {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.animation = 'fadeInUp 0.8s ease';
-                    }
-                });
-            });
-
-            document.querySelectorAll('.gem-card,.feature-card sapphire').forEach(card => {
-                observer.observe(card);
-            });
-        });
+			
 			  </script>
